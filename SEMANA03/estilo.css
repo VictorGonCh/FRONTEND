@@ -1,0 +1,314 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.inicio{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.vacunacion{
+    margin-left: 150px;
+    margin-right: 210px;
+    font-size: 35px;
+    color: rgb(21,70,231);
+    font-weight: bold;
+}
+
+.menu{
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.btnInicio{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: rgb(21,70,231);
+    border-radius: 4px;
+    color: white;
+    width: 100px;
+    height: 36px;
+}
+
+/* primera parte*/
+.peleaComp{
+    float: left;
+    
+    width: 500px;
+    margin-left: 150px;
+    margin-right: 80px;
+}
+.pelea{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.textoPelea{
+    color: gray;
+    margin-bottom: 20px;
+}
+/*
+.imaSh{
+    float:left;
+    margin-left: 5px;
+}
+*/
+
+.textoPelea2{
+    margin-top: 20px;
+    margin-bottom: 100px;
+    
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+.textoPelea3{
+    
+    margin-top: 20px;
+    
+    margin-left: 30px;
+    
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.infovacuna{
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color:lightgray;
+    opacity: .8;
+    border-radius: 5px;
+    position: relative  ;
+    z-index: 2;
+    float: left;
+    width: 700px;
+    height: 50px;
+}
+.li2{
+    float: left;
+    list-style: none;
+    color: gray;
+    margin-right: 30px;
+}
+.li1{
+    font-weight: bold;
+    color: black;
+}
+.li3{
+    color: gray;
+}
+.btnsubmit{
+    background-color: rgb(21,70,231);
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 36px;
+    margin-left: 60px;
+}
+
+/* imagen de enfermera */
+.imaEnf{
+    
+    margin-right: 150px;
+    float: right;
+}
+.aztra{
+    margin-left: 150px;
+    margin-right: 70px;
+    float: left;
+    opacity: .3;
+}
+.sino{
+    margin-top: 30px;
+    margin-right: 70px;
+    float: left;
+    opacity: .3;
+}
+.pfizer{
+    margin-top: 50px;
+    margin-right: 70px;
+    float: left;
+    opacity: .3;
+}
+.moderna{
+    margin-top: 40px;
+    float: left;
+    opacity: .3;
+}
+.clearFix{
+    clear: both;
+}
+/* por que */
+.porque{
+    margin-left: 150px;
+    margin-right: 150px;
+    
+    
+}
+.subs{
+    font-size: 30px;
+    font-weight: bold;
+}
+.subme{
+    font-size: 20px;
+    font-weight: bold;
+}
+.iconmenu{
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+    
+    width: 17%;
+}
+
+.iconescudo{
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+    width: 17%;
+}
+
+.icongrupo{
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+    width: 17%;
+}
+
+.iconmensaje{
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+    width: 17%;
+}
+
+.imaEnfdedo{
+    
+    float: left;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.preparations{
+    float: right;
+    
+    margin-right: 150px;
+    width: 460px;
+    height: 200px;
+}
+
+.iconalcoholic{
+    float: right;
+    
+    margin-right: 170px;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 40px;
+}
+
+.iconclose{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 170px;
+    width: 340px;
+    height: 120px;
+}
+
+.iconbarras{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 170px;
+    width: 340px;
+    height: 40px;
+}
+
+.iconcheck{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 170px;
+    width: 340px;
+    height: 40px;
+}
+
+.iconcorazon{
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 170px;
+    width: 340px;
+    height: 40px;
+}
+/*
+de aqui para abajo va final
+*/
+
+.final{
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+    float: left;
+    
+}
+.prueba{
+    margin-left: 30px;
+    width: 450px;
+    height: 200px;
+}
+
+.formFi{
+    text-align: left;
+    font-size: bold;
+}
+.btnfinal{
+    background-color: lightgray;
+    border-radius: 5px;
+    color: blue;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border: none;
+}
+.vaccinati{
+    float: left;
+    
+    margin-left: 150px;
+    margin-right: 460px;
+    width: 200px;
+    height: 200px;
+}
+.about{
+    float: left;
+    
+    margin-right: 15px;
+}
+.company{
+    float: left;
+    
+    margin-right: 15px;
+}
+.support{
+    float: left;
+    
+    margin-right: 15px;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+}
+.derechos{
+    margin-left: 150px;
+}
+.terminos{
+    margin-left: 500px;
+}
