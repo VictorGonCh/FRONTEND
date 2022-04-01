@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./poquedex.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="poque">
+            <img src="./circulo_azul.png" alt="circulo" width="40px" class="circulo">
+            <h1>Poquedex</h1>
+            
+            <input type="text" placeholder="pokemon o id" id="nombrePoke" name="nombrePoke" class="nombrepoke">
+            <button onclick="fetchPokemon()"  class="boton"> </button><br>
+            <div class="imagenPoke" id="imagenPoke">
+                <img src="./siluetaPoke.jpg" alt="pokemon" id="pokeimagen" width="150px"><br>
+            </div>
+            <textarea name="estadisticas1" id="estadisticas1" cols="25" rows="11" class="estadisticas"></textarea><br>
+            
+        </div>
+        <div class="division"></div>
+        <div class="poque2">
+            <textarea name="descripcion" id="descripcion" cols="25" rows="18" class="movimientos"></textarea><br>
+        </div>
+    </section>
+    <div id="tipos"></div>
+    
+    
+</body>
+<footer>
+    <script src="./poquedex.js"></script>
+</footer>
+</html>
